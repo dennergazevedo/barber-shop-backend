@@ -25,7 +25,7 @@ public class UserController {
   public ResponseEntity create(@RequestBody UserModel user){
     var existUser = this.userRepository.findByEmail(user.getEmail());
 
-    if(existUser.size() != 0) {
+    if(existUser != null) {
       /* APENAS PARA TESTE, REGRA NÃO FAZ SENTIDO FALANDO DE LGPD */
       return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Usuário já existe");
     }
