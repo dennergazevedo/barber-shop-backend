@@ -1,5 +1,5 @@
 # Barber Shop
-Backend de um Barber Shop apenas para estudo, fortalececimento e expansão dos conhecimentos da Stack **Spring Boot**.
+Backend de um Barber Shop apenas para estudo, fortalecimento e expansão dos conhecimentos da Stack **Spring Boot**.
 
 ## Start Project
 Execute `mvn spring-boot:run` no terminal da pasta para executar o projeto.
